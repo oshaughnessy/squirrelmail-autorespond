@@ -1,0 +1,67 @@
+Version 0.5.2rc4 / Wed, Oct 22 2007
+  - Added sftp, ftp/tls, and ssh support.
+
+Version 0.5.2rc3 / Wed, Oct 17 2007
+  - Added compatibility plugin back in, using compatibility 2.x now.
+    It's only required for load_config() in setup.php.
+  - Moved config.php to config.php.ex so that upgrades won't overwrite
+    the old config.  Added config_local.php.ex, which is an example for
+    config_local.php, which overrides anything in config.php.
+  - Resolved another E_ALL warning from ar_ftp_put().
+  - Fixed bug where aliases couldn't be removed from the vacation section.
+  - Moved storage of forwarding address from a comment in .forward to
+    squirrelmail prefs; .forward comments aren't recognized by the Courier
+    local delivery agent.
+
+Version 0.5.2rc2 / Wed, Sept 12 2007
+  - Cleaned up a little bit of HTML formatting.
+  - Changed Reset button so that it uses a translated string label.
+
+Version 0.5.2rc1 / Wed, Sept 12 2007
+  - Fixed some broken internationalization calls.  Thanks again into
+    Gabriele Vivinetto for pointing them out and for the updated Italian
+    translation.
+  - Got rid of the silly ar_gettext() function.  The textdomain binding
+    is much more sensible now.
+  - Eliminated every E_ALL warning I could find.
+  - Improved error reporting during FTP problems.
+  - Fixed bug where trash_folder wasn't recognized during .forward scanning.
+  - Added htmlspecialchars filter before outputting any user input.
+  - Added support for setting the From header in the vacation message file.
+
+Version 0.5.1 / Fri, Sept 7 2007
+  - Improved conformance to recommended coding standards for plugins
+    based on guidelines at http://squirrelmail.org/docs/devel/devel-2.html
+  - Added automatic setting of From header in vacation file using the
+    From address defined in the squirrelmail prefs.
+    Thanks to Tomasz Witek for the patch.
+  - Added Japanese translation, but having trouble getting it working.
+    Thanks to Yasuhiro Suzuki for the translation.
+  - Removed use of the compatibility plugin.  I'm told that the use of
+    sqgetGlobalVar means this plugin will only work with squirrelmail 1.4
+    and newer.  If anybody wants the compatibility plugin integrated
+    back in, please let me know.
+
+Version 0.5 / Wed, Sept 5 2007
+  - Added internationalization and Italian translation.  Thanks to
+    Gabriele Vivinetto for the suggestion, translation, and head start.
+  - Added ability to pass alternate alias names to the vacation program
+    at the request of a few people.
+  - Added ability to wipe out the vacation reply cache at the request
+    of a few people.
+  - Added keep_by_default config option.  Thanks for Daniel Watts for
+    the suggestion.
+    
+
+Version 0.4 / Fri, Jun 27 2003
+  - Fixed a bug where a user couldn't leave on filtering if they weren't
+    doing a forward or vacation response.
+  - Added more comments to config.php, converted the examples from
+    a qmail setup to postfix/sendmail.
+  - Tried to avoid creating some unnecessary PHP log warnings.
+
+Version 0.3 / Fri, Apr 11 2003
+  - Tried to take care of all shortcomings when register_globals = Off.
+
+Version 0.2 / Wed, Apr 09 2003
+  - Initial public release.

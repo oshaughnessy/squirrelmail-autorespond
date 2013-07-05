@@ -1,0 +1,251 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Autorespond 0.5\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2007-08-07 11:22+0100\n"
+"Last-Translator: Gabriele Vivinetto <gabriele.mailing@rvmgroup.it>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-Basepath: /home/diesis/Desktop/autorespond\n"
+"X-Poedit-Language: Italian\n"
+"X-Poedit-Country: ITALY\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: lib.php:49
+msgid "Options"
+msgstr "Opzioni"
+
+#: lib.php:49
+msgid "Automatic Forward and Reply"
+msgstr "Risposta ed Inoltro Automatico"
+
+#: lib.php:119
+msgid ""
+"Sorry, but this plugin is not completely setup.\n"
+"\t\t\t       Please contact your System Administrator about \n"
+"\t\t\t       configuring the Spam Rules plugin."
+msgstr ""
+"Spiacente, ma questo plugin non è completamente installato.\n"
+"\t\t\t       Per cortesia, contatta il tuo Amministratore di Sistema \n"
+"\t\t\t       per configurare il Plugin delle Regole di Spam."
+
+#: lib.php:125
+#: lib.php:190
+msgid "no file was given to upload"
+msgstr "nessun file specificato per il caricamento"
+
+#: lib.php:136
+#: lib.php:200
+msgid "cannot connect to"
+msgstr "impossibile connettersi a"
+
+#: lib.php:186
+msgid ""
+"Sorry, but this plugin is not completely setup.\n"
+"\t\t\t       Please contact your System Administrator \n"
+"\t\t\t       about configuring the Spam Rules plugin."
+msgstr ""
+"Spiacente, ma questo plugin non è completamente installato.\n"
+"\t\t\t       Per cortesia, contatta il tuo Amministratore di Sistema \n"
+"\t\t\t       per configurare il Plugin delle Regole di Spam."
+
+#: lib.php:220
+msgid "error creating"
+msgstr "errore nella creazione"
+
+#: lib.php:236
+msgid "error changing"
+msgstr "errore nel cambiamento"
+
+#: lib.php:242
+msgid "error removing"
+msgstr "errore nella rimozione"
+
+#: lib.php:360
+msgid "You can choose one or more of these options:"
+msgstr "Puoi scegliere una o più di queste opzioni:"
+
+#: lib.php:370
+msgid "To:"
+msgstr "A:"
+
+#: lib.php:377
+msgid "Forward?"
+msgstr "Inoltro"
+
+#: lib.php:391
+#: lib.php:621
+msgid "Subject:"
+msgstr "Oggetto"
+
+#: lib.php:392
+#: lib.php:622
+msgid "Message:"
+msgstr "Messaggio"
+
+#: lib.php:399
+msgid "Reply?"
+msgstr "Rispondi"
+
+#: lib.php:418
+msgid "unfiltered"
+msgstr "non filtrati"
+
+#: lib.php:420
+msgid "filtered"
+msgstr "filtrati"
+
+#: lib.php:428
+msgid "Keep a copy here?"
+msgstr "Conserva una copia"
+
+#: lib.php:448
+msgid "Send it to your Trash?"
+msgstr "Invia al Cestino"
+
+#: lib.php:491
+msgid "New mail will be sent to"
+msgstr "Le nuove email verranno inviate a"
+
+#: lib.php:499
+msgid "New mail will be kept here in your Inbox."
+msgstr "Le nuove email verranno conservate in Posta in arrivo"
+
+#: lib.php:511
+msgid "Senders will get an automatic reply."
+msgstr "I mittenti riceveranno una risposta automatica"
+
+#: lib.php:515
+msgid "No automatic reply will be sent."
+msgstr "Nessuna risposta automatica verrà inviata"
+
+#: lib.php:527
+msgid ""
+"Local copies will also be kept (and will be filtered through"
+msgstr ""
+"Verrà conservata una copia locale (e verrà filtrata attraverso"
+
+#: lib.php:531
+msgid "filtered through"
+msgstr "filtrata attraverso"
+
+#: lib.php:537
+msgid "Local copies will also be kept."
+msgstr "Verranno conservate delle copie anche in locale."
+
+#: lib.php:544
+msgid "Mail will be kept in your Trash mailbox."
+msgstr "Le nuove email saranno conservate nel Cestino"
+
+#: lib.php:557
+msgid "New settings saved:"
+msgstr "Nuove impostazioni salvate:"
+
+#: setup.php:29
+msgid "Auto Response:  Reply or Forward"
+msgstr "Risposta Automatica: Rispondi o Inoltra"
+
+#: setup.php:49
+msgid "Automatically reply to incoming mail or send it all to another address."
+msgstr "Invia tutti i tuoi nuovi messaggi in arriva ad un altro indirizzo."
+
+#: config.php:37
+msgid "the Spam Rules"
+msgstr "le Regole di Spam"
+
+#: setup.php:40
+msgid "Auto Response"
+msgstr "Risposta Automatica"
+
+#: config.php:49
+msgid "Auto-Reply:  away from my mail"
+msgstr "Risposta Automatica: Assenza"
+
+#: config.php:51
+msgid ""
+"Hello.  I'm away from my mailbox right now, but I will read\n"
+"your message when I return.  Thank you for your patience.\n"
+"\n"
+"PS:  This automatic response is only sent after your first\n"
+"message.  It won't be sent again in the near future, even if\n"
+"you send more email before I return.\n"
+"\n"
+"Best regards.\n"
+"\n"
+"    -- "
+msgstr ""
+"Salve,\n"
+"sono assente, ma leggero' i Vostri messaggi al mio ritorno.\n"
+"Vi ringrazio per la pazienza.\n"
+"\n"
+"NOTA:  Questa e' una risposta automatica inviata solo dopo il vostro primo messaggio.\n"
+"Non ve ne sara' inviata un'altra anche se manderete altre email prima che io ritorni.\n"
+"Saluti.\n"
+"\n"
+"    -- "
+
+#: config.php:71
+msgid ""
+"Here you can define various ways to automatically handle all your Incoming "
+"email.  <b>Please note:</b>  If you choose <i>Forward</i> or <i>Reply</i>, "
+"you will not keep copies of mail in your mailbox unless you also select "
+"<i>Keep a copy here</i>."
+msgstr ""
+"Qui puoi definire vari modi di gestire automaticamente tutta la Tua posta in "
+"arrivo.  <b>Attenzione:</b>  Se scegli <i>Inoltra</i> o <i>Rispondi</i>, "
+"non conserverai nessuna copia dei messaggi in Posta in arrivo, se non "
+"selezionerai anche <i>Conserva una copia qui</i>."
+
+#: config.php:94
+msgid ""
+"<div align=left><p>\n"
+"  Your new forwarding rules have been saved.\n"
+"</p></div>"
+msgstr ""
+"<div align=left><p>\n"
+"  Le tue nuove regole di inoltro sono state salvate.\n"
+"</p></div>"
+
+#: config.php:102
+msgid "Vacation Message"
+msgstr "Messaggio di assenza"
+
+#: config.php:105
+msgid ""
+"Here you can change the message that is automatically sent to people "
+"who send email to you.  The word &quot;$SUBJECT&quot; in the <em>Subject</em> "
+"field will be replaced with the subject of the current message when the "
+"response is generated.  For example, if you've saved a vacation message "
+"with the <em>Subject</em> &quot;Re: $SUBJECT&quot;, and you receive a message "
+"with the <em>Subject</em> &quot;I Am The Walrus&quot;, then the automatic "
+"response sent back will say &quot;Re: I Am The Walrus&quot;."
+msgstr ""
+"Qui puoi cambiare il messaggio che viene inviato automaticamente alle persone "
+"che ti inviano delle email. La parola &quot;$SUBJECT&quot; nel campo "
+"<em>Oggetto</em> sarà sostituita dall'oggetto del messaggio corrente "
+"quando la risposta sarà generata. Ad esempio se hai salvato un messaggio "
+"di assenza con l'<em>Oggetto</em> &quot;Re: $SUBJECT&quot;, e ricevi un "
+"messaggio con <em>Oggetto</em> &quot;Richiesta informazioni&quot;, allora "
+"l'oggetto della risposta automatica sarà &quot;Re: Richiesta "
+"Informazioni&quot;."
+
+#: config.php:118
+msgid "Send all your Incoming email to another address:"
+msgstr "Invia tutti i tuoi nuovi messaggi in arriva ad un altro indirizzo:"
+
+#: config.php:119
+msgid "Return a prewritten response, sometimes called a &quot;vacation message&quot;, to all your senders:"
+msgstr "Invia una risposta automatica, solitamente chiamata &quot;Messaggio di assenza&quot;, a tutti i tuoi corrispondenti:"
+
+#: config.php:120
+msgid "No matter where else your email goes, a copy can always be kept here in your mailbox.  If you've set up"
+msgstr "Indipendentemente da dove verrà inoltrata la tua corrispondenza, una copia potrà sempre essere conservata nella tua Posta in arrivo. Se hai impostato i"
+
+msgid "Spam filters"
+msgstr "Filtri Antispam"
+
+msgid "the mail can be sent through those, or it can be stored unmodified"
+msgstr "i messaggi possono essere filtrati, oppure no."

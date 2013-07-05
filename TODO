@@ -1,0 +1,21 @@
+Wishlist:
+  Here are a few features people have asked me for that I haven't
+  added yet.  If you'd like to have these features as well, please
+  let me know.  I would be happy to get to them when I have the time,
+  and knowing more people want them will motivate me to make the time.
+
+  - stripping the domain from the user's authentication name
+  - appending .forward instead of overwriting it
+
+Added in 0.5.2:
+  - support for sftp -- actually a combination of sftp & scp is required
+
+================================================================================
+
+Bugs to fix:
+  - none known
+
+Fixed in 0.5.2:
+  - fix bug where aliases can't be removed from vacation section.
+  - store disabled forward in squirrelmail prefs instead of .forward;
+    courier LDA doesn't ignore "#" comments.
