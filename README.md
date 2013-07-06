@@ -34,39 +34,45 @@ See also:  http://www.squirrelmail.org/plugin_view.php?id=172.
 
 ## Installation
 
-- Install this directory into your squirrelmail source dir at
-  plugins/autorespond.
-- Ensure that you have an FTP server which allows your users to log in
-  using the same username and password they use to login to Squirrelmail.
-- Copy config.php.ex to config.php and modify the file as described within.
-  You may also want to leave this file intact and simply put your own
-  variable settings into config_local.php instead, which will override
-  anything defined in config.php.
-- Enable the plugin through conf.pl.
-- Test it out!  Make sure to double-check the contents of your forward file
-  and vacation files after making changes through SquirrelMail.
-- It has been brought to my attention that some vacation programs need
-  to be initialized before they can be used.  This isn't exactly something
-  that lends itself well to our web environment, but it's something you
-  may need to be aware of.  Check your own vacation docs and test a bit
-  to learn whether you need to handle this.  I don't have a good solution
-  for this that can operate through our limited FTP-only environment,
-  and I strongly prefer to avoid making the web server run scripts on
-  the user's behalf.  If you need this, perhaps you could run a nightly
-  or hourly cron job to initialize vacation dbs for users.  Feel free to
-  contact me if you're in this situation and need a hand.
+1. Install this directory into your squirrelmail source dir at
+   plugins/autorespond.
+
+1. Ensure that you have an FTP server which allows your users to log in
+   using the same username and password they use to login to Squirrelmail.
+
+1. Copy config.php.ex to config.php and modify the file as described within.
+   You may also want to leave this file intact and simply put your own
+   variable settings into config_local.php instead, which will override
+   anything defined in config.php.
+
+1. Enable the plugin through conf.pl.
+
+1. Test it out!  Make sure to double-check the contents of your forward file
+   and vacation files after making changes through SquirrelMail.
+
+1. It has been brought to my attention that some vacation programs need
+   to be initialized before they can be used.  This isn't exactly something
+   that lends itself well to our web environment, but it's something you
+   may need to be aware of.  Check your own vacation docs and test a bit
+   to learn whether you need to handle this.  I don't have a good solution
+   for this that can operate through our limited FTP-only environment,
+   and I strongly prefer to avoid making the web server run scripts on
+   the user's behalf.  If you need this, perhaps you could run a nightly
+   or hourly cron job to initialize vacation dbs for users.  Feel free to
+   contact me if you're in this situation and need a hand.
 
 
 ## Upgrading
 
-- If you've used autorespond in the past, you can now override config.php's
-  settings in config_local.php.  Any variables defined in config.php
-  can be put there.  Since it's loaded after config.php, your settings
-  will override the defaults.
-- Release 0.5 added internationalization and included major updates to
-  the strings in config.php.  I strongly recommend that you don't just
-  keep your old pre-0.5 config, but rather back it up, copy config.php.ex
-  to config.php, then add your customizations to config_local.php.
+If you've used autorespond in the past, you can now override config.php's
+settings in config_local.php.  Any variables defined in config.php
+can be put there.  Since it's loaded after config.php, your settings
+will override the defaults.
+
+Release 0.5 added internationalization and included major updates to
+the strings in config.php.  I strongly recommend that you don't just
+keep your old pre-0.5 config, but rather back it up, copy config.php.ex
+to config.php, then add your customizations to config_local.php.
 
 
 ## Questions and support
