@@ -3,6 +3,8 @@ file or vacation message via FTP.  If you have some kind of mail filter
 available through your forward files, it will also let you turn that on
 or off.
 
+See also:  http://www.squirrelmail.org/plugin_view.php?id=172.
+
 
 ## Requirements
 
